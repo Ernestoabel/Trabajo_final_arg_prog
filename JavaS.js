@@ -1,4 +1,14 @@
-TomorrowIO.setApiKey("RzQbmQ25FZ0I2OgNYTt7C7IgZfphyiVU");
-TomorrowIO.get('weather', {location: '40.75872069597532,-73.98529171943665'}, function(response) {
-    console.log(response.data.temperature.value + ' ' + response.data.temperature.units);
-});
+let array=[];
+let indice=0;
+function usuario(){
+    let auxiliar=document.getElementById('exampleInputEmail1').value;
+    array[indice]=document.getElementById('exampleInputEmail1').value;
+    if(indice>0){
+        for(let i=0;i<indice-1;i++){
+            if(array[i]===auxiliar){
+                alert("Usurio ya ingresado")
+            }
+        }
+    }
+    indice++;
+}
