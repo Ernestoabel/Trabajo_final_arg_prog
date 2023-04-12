@@ -1,0 +1,12 @@
+*{
+    background-color: #b3e5ea;
+}
+#primero{
+    background-color: #1e3fce;
+    height: 60px;
+    font-size: 40px;
+}
+::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
