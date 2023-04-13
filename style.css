@@ -10,3 +10,121 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
+
+.logo {
+    width: 167px;
+    height: 46px;
+    margin-right: 10px;
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #19A7CE !important;
+    z-index: 1;
+    
+  }
+  .nav-link{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+    color: #FFFFFF !important;
+  }
+  a:link {
+    color: #FFFFFF !important;
+   }
+a:visited {
+    color: #0b34eee5 !important;
+  }
+a:hover {
+    color: #ffffff85 !important;
+   }
+a:active {
+    color: #0000FF ;
+  }
+  @media only screen and (max-width: 767px) {
+    .logo {
+      display: block;
+      margin: auto;
+    }
+    .navbar-nav {
+      margin-top: 10px;
+    }
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  }
+
+  footer {
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #19A7CE !important;
+    color: #FFFFFF !important;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+  .copyright{
+    min-height: fit-content;
+  }
+  /* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+  .buttons {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .buttons a {
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .buttons {
+    justify-content: center;
+  }
+  .buttons a {
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  footer {
+    padding: 20px 0;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  footer {
+    padding: 40px 0;
+  }
+}
+@media only screen and (min-width: 769px) {
+  footer {
+    padding: 60px 0;
+  }
+}
