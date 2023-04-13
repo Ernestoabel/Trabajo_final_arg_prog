@@ -7,7 +7,7 @@
 .logo {
     width: 167px;
     height: 46px;
-    margin-right: 10px;
+    margin-left: 10px;
   }
   .navbar{
     position: fixed;
@@ -28,7 +28,7 @@
     color: #FFFFFF !important;
    }
 a:visited {
-    color: #0b34eee5 !important;
+    color: #FFFFFF !important;
   }
 a:hover {
     color: #ffffff85 !important;
@@ -81,7 +81,7 @@ a:active {
   .buttons a:hover {
     transform: scale(1.2);
   }
-  .copyright{
+  .footer{
     min-height: fit-content;
     background-color: #19A7CE !important;
   }
