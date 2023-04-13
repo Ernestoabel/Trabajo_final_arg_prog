@@ -55,6 +55,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   
   .buttons {
@@ -82,6 +83,7 @@ a:active {
   }
   .copyright{
     min-height: fit-content;
+    background-color: #19A7CE !important;
   }
   /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 600px) {
