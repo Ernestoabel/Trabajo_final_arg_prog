@@ -60,7 +60,7 @@
     </div>
     <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6" id="textoPrincipal">
-            <h1 >
+            <h1>
                 <br>
                 <br>
                 <a>
@@ -124,7 +124,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="font-size: 30px">
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                                style="font-size: 30px">
                             Acceda a su usuario
                         </button>
                     </h2>
@@ -156,7 +157,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 30px">
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                style="font-size: 30px">
                             Seleccione dia
                         </button>
                     </h2>
@@ -166,6 +168,9 @@
                             <div class="row">
                                 <div class="col-2"></div>
                                 <div class="col-8">
+                                    <p id="inputTempMin"></p>
+                                    <p id="inputTempMax"></p>
+                                    <p id="inputProbabilidad"></p>
                                     <select class="form-control" id="combo-dia">
                                         <option value="" selected>Seleccione</option>
                                         <option value="Lunes">Lunes</option>
@@ -180,7 +185,9 @@
                             </div>
                             <div class="col-12 text-center">
                                 <br>
-                                <button type="button" id="botonDia" onclick="tomarDia()" class="btn btn-success">Enviar</button>
+                                <button type="button" id="botonDia" onclick="tomarDia()" class="btn btn-success">
+                                    Enviar
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -188,7 +195,8 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 30px">
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                style="font-size: 30px">
                             Saque turno
                         </button>
                         <br>
@@ -205,20 +213,28 @@
         </div>
     </div>
     <div class="row">
-        <div class="col 12">
-            <footer>
-                <section id="contacto" class="buttons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-envelope-o"></a>
-                </section>
-            </footer>
-        </div>
+
+        <footer>
+            <section id="contacto" class="buttons">
+                <div class="col 4">
+                    <a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+                </div>
+                <div class="col 4">
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                </div>
+                <div class="col 4">
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                </div>
+                <div class="col 4">
+                    <a href="https://mail.google.com/" class="fa fa-envelope-o"></a>
+                </div>
+            </section>
+        </footer>
+
     </div>
 </div>
 <footer class="footer">
-    <div class="row" >
+    <div class="row">
         <div class="col-12">
             <div class="row">
                 <div class="col-12">
