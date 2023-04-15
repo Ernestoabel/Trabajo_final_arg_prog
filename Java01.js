@@ -26,18 +26,17 @@ $(document).ready(function () {
         }
     }).done(function (respuestaClima) {
         respuestaClima.daily.precipitation_probability_max.forEach(probabilidad => {
-            console.log(respuestaClima.daily.precipitation_probability_max);
-            document.getElementById("inputTempMin").innerHTML = "<br> La temperatura minima es: <br> Lunes (" + respuestaClima.daily.temperature_2m_min[0] +
+            document.getElementById("inputTempMin").innerHTML = "<br><strong> La temperatura minima es:</strong> <br> Lunes (" + respuestaClima.daily.temperature_2m_min[0] +
                 ") Martes (" + respuestaClima.daily.temperature_2m_min[1] + ") Miercoles (" + respuestaClima.daily.temperature_2m_min[2] +
-                ") Jueves (" + respuestaClima.daily.temperature_2m_min[3] + ") Viernes (" + respuestaClima.daily.temperature_2m_min[4] +
+                ")<br> Jueves (" + respuestaClima.daily.temperature_2m_min[3] + ") Viernes (" + respuestaClima.daily.temperature_2m_min[4] +
                 ") Sabado (" + respuestaClima.daily.temperature_2m_min[5] + ")";
-            document.getElementById("inputTempMax").innerHTML = "<br> La temperatura maxima es: <br> Lunes (" + respuestaClima.daily.temperature_2m_max[0] +
+            document.getElementById("inputTempMax").innerHTML = "<strong> La temperatura maxima es:</strong> <br> Lunes (" + respuestaClima.daily.temperature_2m_max[0] +
                 ") Martes (" + respuestaClima.daily.temperature_2m_max[1] + ") Miercoles (" + respuestaClima.daily.temperature_2m_max[2] +
-                ") Jueves (" + respuestaClima.daily.temperature_2m_max[3] + ") Viernes (" + respuestaClima.daily.temperature_2m_max[4] +
+                ")<br> Jueves (" + respuestaClima.daily.temperature_2m_max[3] + ") Viernes (" + respuestaClima.daily.temperature_2m_max[4] +
                 ") Sabado (" + respuestaClima.daily.temperature_2m_max[5] + ")";
-            document.getElementById("inputProbabilidad").innerHTML = "<br> La probalidad de lluvia es: <br> Lunes (" + respuestaClima.daily.precipitation_probability_max[0] +
+            document.getElementById("inputProbabilidad").innerHTML = "<strong> La probalidad de lluvia es:</strong> <br> Lunes (" + respuestaClima.daily.precipitation_probability_max[0] +
                 "%) Martes (" + respuestaClima.daily.precipitation_probability_max[1] + "%) Miercoles (" + respuestaClima.daily.precipitation_probability_max[2] +
-                "%) Jueves (" + respuestaClima.daily.precipitation_probability_max[3] + "%) Viernes (" + respuestaClima.daily.precipitation_probability_max[4] +
+                "%)<br> Jueves (" + respuestaClima.daily.precipitation_probability_max[3] + "%) Viernes (" + respuestaClima.daily.precipitation_probability_max[4] +
                 "%) Sabado (" + respuestaClima.daily.precipitation_probability_max[5] + "%)";
             lunes = respuestaClima.daily.precipitation_probability_max[0];
             martes = respuestaClima.daily.precipitation_probability_max[1];
@@ -58,19 +57,29 @@ function obtenerFechaFormateada(fecha) {
 
 function usuario() {
     auxiliar = document.getElementById('exampleInputEmail1').value;
-    array.push(document.getElementById('exampleInputEmail1').value);
-    for (let i = 0; i < indice; i++) {
-        if (array[i] === auxiliar) {
-            alert("Usuario ya ingresado");
-            bandera = 0;
-            break;
-        } else {
-            
-            bandera = 1;
+
+    if (validarEmail(auxiliar)) {
+        array.push(document.getElementById('exampleInputEmail1').value);
+        for (let i = 0; i < indice; i++) {
+            if (array[i] === auxiliar) {
+                alert("Usuario ya ingresado");
+                bandera = 0;
+                break;
+            } else {
+
+                bandera = 1;
+            }
         }
+    } else {
+        alert("Ingrese un mail valido");
     }
     document.getElementById("exampleInputEmail1").value = "";
     indice++;
+}
+
+function validarEmail(email) {
+    const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/; // Expresión regular para validar el correo electrónico
+    return regex.test(email); // Devuelve true si el correo es válido, de lo contrario devuelve false
 }
 
 function tomarDia() {
@@ -79,48 +88,48 @@ function tomarDia() {
         if (lunes > 20) {
             alert("Ese dia puede llover");
         } else if (bandera === 1) {
-            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + " tiene turno el dia " + dia;
+            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + ", tiene turno el dia " + dia;
         }
     }
     if (dia === 'Martes') {
         if (martes > 20) {
             alert("Ese dia puede llover");
         } else if (bandera === 1) {
-            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + " tiene turno el dia " + dia;
+            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + ", tiene turno el dia " + dia;
         }
     }
     if (dia === 'Miercoles') {
         if (miercoles > 20) {
             alert("Ese dia puede llover");
         } else if (bandera === 1) {
-            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + " tiene turno el dia " + dia;
+            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + ", tiene turno el dia " + dia;
         }
     }
     if (dia === 'Jueves') {
         if (jueves > 20) {
             alert("Ese dia puede llover");
         } else if (bandera === 1) {
-            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + " tiene turno el dia " + dia;
+            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + ", tiene turno el dia " + dia;
         }
     }
     if (dia === 'Viernes') {
         if (viernes > 20) {
             alert("Ese dia puede llover");
         } else if (bandera === 1) {
-            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + " tiene turno el dia " + dia;
+            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + ", tiene turno el dia " + dia;
         }
     }
     if (dia === 'Sabado') {
         if (sabados > 20) {
             alert("Ese dia puede llover");
         } else if (bandera === 1) {
-            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + " tiene turno el dia " + dia;
+            document.getElementById("miParrafo").innerHTML = document.getElementById("miParrafo").innerHTML + "<br> Hola, su usuario es " + auxiliar + ", tiene turno el dia " + dia;
         }
     }
 }
 
-$(document).ready(function() {
-    $('#contact-form').submit(function(event) {
+$(document).ready(function () {
+    $('#contact-form').submit(function (event) {
         var nombre = $('#nombre').val();
         var email = $('#email').val();
         var mensaje = $('#mensaje').val();

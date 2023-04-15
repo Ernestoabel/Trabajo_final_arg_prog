@@ -116,9 +116,13 @@ a:active {
 }
 h1 a{
   font-size: 55px;
+  color: #030391;
+  text-shadow: 2px 2px 4px #888888;
 }
 h1 b{
   font-size: 30px;
+  color: #030391;
+  text-shadow: 2px 2px 4px #888888;
 }
 #botonPrincipal{
   position: absolute;
@@ -133,3 +137,18 @@ h1 b{
   color: red;
   font-style: italic;
 }
+p{
+  font-size: 20px;
+  color: #030391;
+  text-shadow: 2px 2px 4px #888888;
+}
+p d{
+  font-size: 25px;
+  color: #02025d;
+  text-shadow: 2px 2px 4px #888888;
+}
+hr{
+  border-color: #02025d;
+  border-radius: 18px;
+}
+
