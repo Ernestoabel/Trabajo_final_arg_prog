@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+h1{
+    font-size: 75px;
+    font-family: Andalus;
+}
+p{
+    font-size: 25px;
+    line-height: 5px;
+}
+#boton{
+    font-family: Andalus;
+    border-radius: 15px;
+    font-size: 25px;
+}
+#botonComenzar{
+    font-family: Andalus;
+    border-radius: 15px;
+    font-size: 45px;
+}
