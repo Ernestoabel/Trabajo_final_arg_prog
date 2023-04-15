@@ -36,7 +36,7 @@ function jugadorUno() {
     }else{
         alert("No tiro el jugador anterior");
     }
-    if(jugaUno.length>=40){
+    if(jugaUno.length>=33){
         alert("Jugador Uno a ganado el juego");
         jugaUno='-';
         jugaDos='-';
@@ -63,7 +63,7 @@ function jugadorDos() {
     }else{
         alert("No tiro el jugador anterior");
     }
-    if(jugaDos.length>=40){
+    if(jugaDos.length>=33){
         alert("Jugador Dos a ganado el juego");
         jugaUno='-';
         jugaDos='-';
@@ -90,7 +90,7 @@ function jugadorTres() {
     }else{
         alert("No tiro el jugador anterior");
     }
-    if(jugaTres.length>=40){
+    if(jugaTres.length>=33){
         alert("Jugador Tres a ganado el juego");
         jugaUno='-';
         jugaDos='-';
