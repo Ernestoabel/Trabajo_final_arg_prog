@@ -50,9 +50,11 @@ a:active {
   }
 
   footer {
-    width: 100%;
     min-height: 40vh;
-    display: flex;
+    width: 100% !important;
+      background-color: #19A7CE !important;
+      margin-bottom: 0;
+      display: flex;
     justify-content: center;
     align-items: center;
 
@@ -73,10 +75,6 @@ a:active {
   
   .buttons a:hover {
     transform: scale(1.2);
-  }
-  footer{
-    width: 100% !important;
-    background-color: #19A7CE !important;
   }
   /* Estilos para pantallas pequeñas */
 @media only screen and (max-width: 600px) {
