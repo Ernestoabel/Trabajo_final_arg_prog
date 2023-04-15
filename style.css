@@ -64,25 +64,18 @@ a:active {
     justify-content: space-around;
   }
   
-  .buttons a {
+  a {
     text-decoration: none;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
     text-align: center;
-    background: #19A7CE !important;
-    color: #FFFFFF !important;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    transition: all .4s ease-in-out;
+    color: #FFFFFF;
+   
   }
   
   .buttons a:hover {
     transform: scale(1.2);
   }
-  .footer{
-    min-height: fit-content;
+  footer{
+    width: 100% !important;
     background-color: #19A7CE !important;
   }
   /* Estilos para pantallas pequeñas */
@@ -135,4 +128,6 @@ h1 b{
   border-radius: 15px;
   font-size: 30px;
 }
-
+.tycondiciones{
+  margin-top: 200px !important ;
+  vertical-align: inherit !important;}
