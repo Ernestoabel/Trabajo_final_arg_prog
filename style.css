@@ -128,6 +128,10 @@ h1 b{
   border-radius: 15px;
   font-size: 30px;
 }
-.tycondiciones{
+.tycondiciones, .ctctitulo{
   margin-top: 200px !important ;
   vertical-align: inherit !important;}
+.error {
+  color: red;
+  font-style: italic;
+}

@@ -118,7 +118,15 @@ function tomarDia() {
     }
 }
 
+$(document).ready(function() {
+    $('#contact-form').submit(function(event) {
+        var nombre = $('#nombre').val();
+        var email = $('#email').val();
+        var mensaje = $('#mensaje').val();
 
-
-
-
+        if (nombre == '' || email == '' || mensaje == '') {
+            alert('Por favor, complete los campos obligatorios');
+            event.preventDefault();
+        }
+    });
+});

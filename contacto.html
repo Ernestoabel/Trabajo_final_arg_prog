@@ -14,13 +14,18 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- para los iconos del footer -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
 <link rel="stylesheet" href="style.css">
 <script src="Java01.js"></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Términos y condiciones POOLFINDER</title>
+    <title>Contacto POOLFINDER</title>
 </head>
 <body>
     <header>
@@ -44,7 +49,7 @@
                                     <a class="nav-link" href="Principal.html">Beneficios</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#contacto" >Contacto</a>
+                                    <a class="nav-link" href="#" >Contacto</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="juego.html" target="_blank">
@@ -58,25 +63,36 @@
             </div>
         </div>
     </header>
+    <div class="col-8 container">
+        <h1 class="ctctitulo text-center mb-5">Formulario de Contacto</h1>
+        <form method="post" action="#" id="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre*:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email*:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje*:</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <div class="container col-9 my-5 tycondiciones">
-		<h1 class="text-center mb-5">Términos y condiciones.</h1>
-		<p>Al utilizar la pileta de POOLFINDER, se aceptan las siguientes condiciones:</p>
-		<ol>
-			<li>El uso de la pileta está permitido únicamente a los socios del club y a sus invitados.</li>
-			<li>Es obligatorio el uso de traje de baño.</li>
-			<li>Los niños menores de 12 años deben estar acompañados por un adulto responsable en todo momento.</li>
-			<li>No se permite la utilización de objetos peligrosos o de vidrio en el área de la pileta.</li>
-			<li>Se prohíbe la realización de actividades físicas que puedan molestar a otros usuarios de la pileta.</li>
-			<li>POOLFINDER no se hace responsable por accidentes o lesiones sufridas en el área de la pileta.</li>
-			<li>Los usuarios de la pileta deben cumplir con todas las instrucciones y regulaciones establecidas por el personal del club.</li>
-			<li>POOLFINDER se reserva el derecho de expulsar a cualquier usuario de la pileta que no cumpla con las condiciones establecidas en este documento o que muestre un comportamiento inapropiado o peligroso.</li>
-		</ol>
-		<p>Al utilizar la pileta, el usuario acepta que POOLFINDER no será responsable por ningún daño o perjuicio, ya sea directo o indirecto, derivado del uso de la pile</p>
 
 
-
-        <footer class="mt-5 bg-color text-white">
+    
+<footer class="mt-5 bg-color text-white">
             <div class="container py-4">
               <div class="row">
                 <div class="col-md-6">
@@ -102,6 +118,7 @@
               </div>
             </div>
           </footer>
+
 
 </body>
 </html>
