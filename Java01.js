@@ -26,6 +26,7 @@ $(document).ready(function () {
         }
     }).done(function (respuestaClima) {
         respuestaClima.daily.precipitation_probability_max.forEach(probabilidad => {
+            console.log(respuestaClima.daily.precipitation_probability_max);
             document.getElementById("inputTempMin").innerHTML = "<br> La temperatura minima es: <br> Lunes (" + respuestaClima.daily.temperature_2m_min[0] +
                 ") Martes (" + respuestaClima.daily.temperature_2m_min[1] + ") Miercoles (" + respuestaClima.daily.temperature_2m_min[2] +
                 ") Jueves (" + respuestaClima.daily.temperature_2m_min[3] + ") Viernes (" + respuestaClima.daily.temperature_2m_min[4] +

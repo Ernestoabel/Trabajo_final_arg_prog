@@ -1,0 +1,146 @@
+[33mcommit a80a8d9662ab1afea4b44636a60799956a309d24[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: b5aa892 a3f3c78
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Sat Apr 15 16:34:02 2023 -0300
+
+    Merge branch 'master' of https://github.com/Ernestoabel/Trabajo_final_arg_prog
+
+[33mcommit b5aa892d3080751dcae4b3fd875b5c0c4c9d6e21[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Sat Apr 15 16:33:45 2023 -0300
+
+    decimo commit
+
+[33mcommit a3f3c78d41186f5564b9841b19861946ffc771cc[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Sat Apr 15 16:26:49 2023 -0300
+
+    se agregan los script para el menu hamburguesa
+
+[33mcommit 5d44d556990d25db0bbf31181f7738807ab8a6c3[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Sat Apr 15 16:10:56 2023 -0300
+
+    detalles
+
+[33mcommit 682c993bc5bcfd23db0b4d4d254b7ca8190d611c[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Sat Apr 15 15:58:43 2023 -0300
+
+    el footer de terminos ahora ocupa el 100% del ancho
+
+[33mcommit 053b86bd39fb7ca8512d9c442bf726202fc9622c[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Sat Apr 15 15:49:04 2023 -0300
+
+    detalles
+
+[33mcommit 4bab13c17e1bb034e0c538fa21161e8dc9aa6dd1[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Sat Apr 15 15:32:45 2023 -0300
+
+    se linkea desde terminos a contactos html
+
+[33mcommit 299aa1d1c2e8aedb77f94d0b42a18f7269a9f63a[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Sat Apr 15 15:30:18 2023 -0300
+
+    se agrega el html de contacto y se linkean todas las secciones de la web
+
+[33mcommit fad98e585cbd68f82611fcf412265620ca409da7[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Sat Apr 15 14:42:32 2023 -0300
+
+    se agrega icono del juego al header, terminos y condiciones linkeado, etc.
+
+[33mcommit bb446ded09388429b5c77020ada0010cee8a053b[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Sat Apr 15 10:29:35 2023 -0300
+
+    decimo commit
+
+[33mcommit 74beda8802c29dd1a90519970ddac51302a79372[m
+Merge: 19c0137 e7089f1
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Fri Apr 14 19:58:48 2023 -0300
+
+    noveno commit
+
+[33mcommit 19c01375086e17e150d595fbce9b4885c13e023e[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Fri Apr 14 19:56:31 2023 -0300
+
+    septimo commit
+
+[33mcommit e7089f1c045e2828b987b254a6e6ab49ced484e6[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Fri Apr 14 17:35:22 2023 -0300
+
+    index-0 a algunos botones para que no se superpongan al header
+
+[33mcommit 69054a32890c45459236906f131956b1f61ea484[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Fri Apr 14 16:15:50 2023 -0300
+
+    septimo commit
+
+[33mcommit 6734e7be567649edb787a53b76c15d128ebf798c[m
+Merge: 726a126 0d9a2ed
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Thu Apr 13 17:05:28 2023 -0300
+
+    Merge branch 'master' of https://github.com/Ernestoabel/Trabajo_final_arg_prog
+
+[33mcommit 726a126de3d03e5dbf89e60139d89370118e7406[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Thu Apr 13 17:05:00 2023 -0300
+
+    sexto commit
+
+[33mcommit 0d9a2ed22cf2544562435a5876073073043737a7[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Thu Apr 13 14:53:47 2023 -0300
+
+    z-index: 0 en los botones del carousel
+
+[33mcommit 9960e11dcedb8c6d09d05e28f2ded7099d68c0f3[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Thu Apr 13 14:38:25 2023 -0300
+
+    pequeños cambios como el class del footer y colores de los links
+
+[33mcommit e1d6577e1b9839a6745dd5a30f04d9ad7eb88487[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Thu Apr 13 09:32:10 2023 -0300
+
+    quinto commit
+
+[33mcommit 13fe571db142560d3afc142ca20b8f1d60845c65[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Thu Apr 13 08:45:01 2023 -0300
+
+    cuarto commit
+
+[33mcommit 61a211f826f7d36bd6d10b71511b94fabdf3881f[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Thu Apr 13 08:15:12 2023 -0300
+
+    tercer commit
+
+[33mcommit d9b135facd00e305ee54efa02c03a6fa36688d2f[m
+Author: ROG1tHub <jrm.marengo@gmail.com>
+Date:   Thu Apr 13 01:10:30 2023 -0300
+
+    agregué el header, el footer con los datos de contacto y el footer con el copyright, se me pisa el background color del * con el del navbar
+
+[33mcommit 604e204223c1b893eee0637fe902f1160ab3993f[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Wed Apr 12 13:14:53 2023 -0300
+
+    segundo commit
+
+[33mcommit 16b154e8aeba0f55600dff23c6b97f314048bbae[m
+Author: Ernestoabel <erenstoabel83@gmail.com>
+Date:   Wed Apr 12 07:48:15 2023 -0300
+
+    primer commit
