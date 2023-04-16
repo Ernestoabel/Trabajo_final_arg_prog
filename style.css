@@ -114,15 +114,23 @@ a:active {
     padding: 60px 0;
   }
 }
-h1 a{
-  font-size: 55px;
-  color: #030391;
-  text-shadow: 2px 2px 4px #888888;
+.ReservarBotonPrincipal{
+  cursor: pointer;
+  display: block;
+  padding: 3px;
+  margin-bottom: 30px;
+  color: #4d5aa1;
+  border-radius: 20px;
+  transition: background-color 500ms, color 500ms, transform 500ms;
 }
-h1 b{
-  font-size: 30px;
-  color: #030391;
-  text-shadow: 2px 2px 4px #888888;
+
+.ReservarBotonPrincipal:hover{
+  background-color: #4d5aa1;
+  color: white;
+  cursor: pointer;
+  display: block;
+  transform: translateY(-15px);
+  box-shadow: 3px 5px 20px #0000006c;
 }
 #botonPrincipal{
   position: absolute;
@@ -149,6 +157,12 @@ p d{
 }
 hr{
   border-color: #02025d;
-  border-radius: 18px;
+  border-radius: 15px;
+}
+.mapa{
+  text-decoration-line: underline;
+  ont-size: 25px;
+  color: #030391;
+  text-shadow: -1px -1px 3px;
 }
 
