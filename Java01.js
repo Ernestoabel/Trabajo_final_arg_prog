@@ -57,9 +57,9 @@ function obtenerFechaFormateada(fecha) {
 
 function usuario() {
     auxiliar = document.getElementById('exampleInputEmail1').value;
-
+    array.push(document.getElementById('exampleInputEmail1').value);
     if (validarEmail(auxiliar)) {
-        array.push(document.getElementById('exampleInputEmail1').value);
+        indice++;
         for (let i = 0; i < indice; i++) {
             if (array[i] === auxiliar) {
                 alert("Usuario ya ingresado");
@@ -74,7 +74,7 @@ function usuario() {
         alert("Ingrese un mail valido");
     }
     document.getElementById("exampleInputEmail1").value = "";
-    indice++;
+    document.getElementById("exampleInputPassword1").value = "";
 }
 
 function validarEmail(email) {
